@@ -1,4 +1,5 @@
 # Private-Discord-Bot
+
 Discord bot designed for use in a single server. No database software required! Just download the project, setup the .env and settings file, then run index.js.
 This was designed for use with in only one guild.
 
@@ -35,9 +36,11 @@ node index.js
 ```
 
 If using PM2 with --watch enabled, you will want to ignore the /flatdbs
+
 ```
 pm2 start index.js --ignore-watch="flatdbs"
 ```
 
 ## ETC
+
 When inviting the bot to your server, be sure that it is invited with the admin permission. Manually adding the admin permission later causes issues.
